@@ -26,7 +26,7 @@ The programs are organized logically to reflect my learning path:
 - [ ] Pointers & References
 - [ ] OOPs Concepts
 
-## 💡 How to run?
+## 🤔 How to run?
 1. Clone this repository: 
 2. Open the specific `.cpp` file in your C++ IDE.
 3. Compile and run using your compiler:
@@ -34,7 +34,7 @@ The programs are organized logically to reflect my learning path:
 ## 🤝 Contributions
 Since this is my personal learning repository, it is primarily for self-tracking. However, if you have suggestions or find any bugs in my code, feel free to open an issue or reach out!
 
-## My Contact 
+## Contact 
 princedangi902@gmail.com
 ---
 *Happy Coding!* 🚀
