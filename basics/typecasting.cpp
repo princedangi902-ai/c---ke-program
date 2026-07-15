@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> // program for typecasting integer into float
 using namespace std;
 int main()
 {

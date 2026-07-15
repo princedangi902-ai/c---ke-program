@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> // understanding the working of the '%' modulus operator
 using namespace std;
 int main()
 {

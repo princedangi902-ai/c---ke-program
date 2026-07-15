@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
-int main() {
-    char x;
-    cin>>x;
-    cout<<x;
+int main()
+{
+    char x; // character datatype
+    cin >> x;
+    cout << x << "yeh ek character hai " << endl;
 }
