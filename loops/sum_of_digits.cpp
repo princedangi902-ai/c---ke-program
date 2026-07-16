@@ -1,19 +1,29 @@
 #include <iostream>
 using namespace std;
+
+// Program to find sum of all digits in a number
+// Example: 123 -> 1+2+3 = 6
+
 int main()
 {
-    int digits = 0, n;
-    cout << "enter a number: ";
+    int n, sum = 0, digit;
+    cout << "Enter a number: ";
     cin >> n;
-    int sum = 0;
-
-    for (; n > 0;)
+    
+    // Extract each digit and add to sum
+    while (n > 0)
     {
-        sum = (n % 10) + sum;
-        n = n / 10;
-        digits++;
+        digit = n % 10;  // Extract last digit
+        sum = sum + digit;  // Add digit to sum
+        n = n / 10;  // Remove last digit
     }
-    cout << "the digits of the number is: " << digits << endl;
-    cout << "the sum of digits is: " << sum << endl;
+    
+    cout << "Sum of digits: " << sum << endl;
+    
     return 0;
 }
+
+// Example:
+// Input: 12345
+// Digits: 1 + 2 + 3 + 4 + 5
+// Output: Sum of digits: 15
