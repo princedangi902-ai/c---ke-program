@@ -11,16 +11,12 @@ int main()
         if (n % i == 0)
         {
             isPrime = false;
+        }
+        else
+        {
+            cout << "prime number";
             break;
         }
-    }
-    if (isPrime)
-    {
-        cout << "prime number";
-    }
-    else
-    {
-        cout << "composite number";
     }
     return 0;
 }
