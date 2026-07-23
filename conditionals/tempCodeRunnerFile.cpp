@@ -8,7 +8,7 @@ int main() {// simple program of a triangle id it exists or not using basic if e
   cin>>b;
   cout<<"enter 3st side :";
   cin>>c;                       //these above line are for taking input from user for sides of triangle
-if ((a+b)>c and (a+c)>b and (b+c)>a)//codition that sum of two side should alwayes grater then remaining side 
+if ((a+b)>c && (a+c)>b && (b+c)>a)//codition that sum of two side should alwayes grater then remaining side 
 {
     cout<<"valid triangle";// if the condition will be true 
 }
